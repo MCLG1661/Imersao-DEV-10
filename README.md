@@ -76,15 +76,7 @@ League Gothic - Títulos e cabeçalhos I Inter - Texto corporativo e conteúdo
 
 Contribuições são extremamente bem-vindas ! Sinta-se à vontade para :
 
-🐛 Reportar bugs através das issues
-
-💡 Sugerir novas funcionalidades
-
-📝 Adicionar novas linguagens ou criadores
-
-🎨 Melhorar o design e experiência do usuário
-
-🔧 Otimizar o código e performance
+🐛 Reportar bugs através das issues I 💡 Sugerir novas funcionalidades I 📝 Adicionar novas linguagens ou criadores I 🎨 Melhorar o design e experiência do usuário I 🔧 Otimizar o código e performance
 
 👨‍💻 Autor :
 
