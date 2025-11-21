@@ -93,9 +93,7 @@ css
 
 - Tipografia Profissional
 
-League Gothic - Títulos e cabeçalhos
-
-Inter - Texto corporativo e conteúdo
+League Gothic - Títulos e cabeçalhos I Inter - Texto corporativo e conteúdo
 
 - Efeitos Visuais
 
