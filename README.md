@@ -35,41 +35,15 @@ const resultados = dados.filter(item =>
 
 🎯 Renderização Dinâmica :
 
-🖼️ Imagens contextuais (logos/fotos)
-
-🏷️ Labels inteligentes baseadas no tipo
-
-🔗 Links de documentação externa
-
-📱 Layout responsivo com CSS Grid
+🖼️ Imagens contextuais (logos/fotos) I 🏷️ Labels inteligentes baseadas no tipo I 🔗 Links de documentação externa I 📱 Layout responsivo com CSS Grid I 
 
 🔄  Otimizações de Performance :
 
-⚡ Carregamento assíncrono de dados
-
-🎯 Animações CSS nativas
-
-📦 Estrutura modular e limpa
-
-🔍 Filtros eficientes em JavaScript
+⚡ Carregamento assíncrono de dados I 🎯 Animações CSS nativas I 📦 Estrutura modular e limpa I 🔍 Filtros eficientes em JavaScript
 
 ✨ Funcionalidades Principais :
 
-🔍 Busca Inteligente - Pesquise por linguagens, criadores ou termos técnicos
-
-🎨 Design Moderno - Interface dark mode com efeitos visuais impressionantes
-
-📱 Totalmente Responsivo - Adaptável para todos os dispositivos
-
-⚡ Performance Otimizada - Carregamento rápido e animações suaves
-
-🖼️ Visualização com Imagens - Logos das linguagens e fotos dos criadores
-
-🔗 Links Diretos - Acesso rápido à documentação oficial
-
-🎯 Busca Contextual - Filtros inteligentes por tipo e categoria
-
-🛠️ Tecnologias Utilizadas :
+🔍 Busca Inteligente - Pesquise por linguagens, criadores ou termos técnicos I 🎨 Design Moderno - Interface dark mode com efeitos visuais impressionantes I 📱 Totalmente Responsivo - Adaptável para todos os dispositivos I⚡ Performance Otimizada - Carregamento rápido e animações suaves I 🖼️ Visualização com Imagens - Logos das linguagens e fotos dos criadores I 🔗 Links Diretos - Acesso rápido à documentação oficial I 🎯 Busca Contextual - Filtros inteligentes por tipo e categoria
 
 🎯 Conteúdo Disponível :
 
@@ -125,13 +99,7 @@ Inter - Texto corporativo e conteúdo
 
 - Efeitos Visuais
 
-🪄 Glassmorphism - Efeito vidro fosco no header
-
-✨ Hover Animations - Cards com efeito de elevação
-
-🎭 Fade-in Effects - Animações de entrada suaves
-
-🔥 Glow Effects - Brilho sutil nos elementos interativos
+🪄 Glassmorphism - Efeito vidro fosco no header I ✨ Hover Animations - Cards com efeito de elevação I 🎭 Fade-in Effects - Animações de entrada suaves I 🔥 Glow Effects - Brilho sutil nos elementos interativos
 
 
 Contribuições são extremamente bem-vindas ! Sinta-se à vontade para :
