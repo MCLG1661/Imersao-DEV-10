@@ -134,7 +134,7 @@ Inter - Texto corporativo e conteúdo
 🔥 Glow Effects - Brilho sutil nos elementos interativos
 
 
-Contribuições são extremamente bem-vindas ! Sinta-se à vontade para:
+Contribuições são extremamente bem-vindas ! Sinta-se à vontade para :
 
 🐛 Reportar bugs através das issues
 
