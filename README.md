@@ -144,4 +144,6 @@ Contribuições são extremamente bem-vindas ! Sinta-se à vontade para:
 
 Marcus Guedes
 
+🌟 "O conhecimento é a única coisa que ninguém pode tirar de você"
+
 
