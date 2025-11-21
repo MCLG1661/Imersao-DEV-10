@@ -25,7 +25,7 @@ const resultados = dados.filter(item =>
     item.nome.toLowerCase().includes(termoBusca) ||
     item.tipo.toLowerCase().includes(termoBusca) ||
     item.descrição.toLowerCase().includes(termoBusca)
-);
+
 
 Renderização Dinâmica :
 
