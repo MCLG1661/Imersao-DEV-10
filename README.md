@@ -152,10 +152,11 @@ Marcus Guedes
 GitHub: https://github.com/MCLG1661
 LinkedIn: https://www.linkedin.com/in/marcusguedes
 
-Desenvolvido com código limpo
+🌟 " O conhecimento é a única coisa que ninguém pode tirar de você. Explore, aprenda e compartilhe !"
 
-🌟 "O conhecimento é a única coisa que ninguém pode tirar de você"
-Explore, aprenda e compartilhe conhecimento 
+🛠️ Desenvolvido com código limpo !
+
+
 
 
 
