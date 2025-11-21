@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Base de conhecimento</title>
+</head>
+<body>
+  <header>
+    <h1>Base de Conhecimento</h1>
+    <div id="caixa-busca"> <!-- Adicionei ID -->
+        <input id="campo-busca" type="text" placeholder="Digite uma linguagem de programação"> <!-- Adicionei ID -->
+        <button id="botao-busca" onclick="iniciarBusca()">Buscar</button>
+        <button id="botao-limpar" onclick="limparBusca()">Limpar</button>
+    </div>
+  </header>
+  
+  <main>
+    <section id="card-container">
+        <!-- Os resultados da busca aparecerão aqui -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <ul class="footer-links">
+        <li>
+            <a href="https://www.linkedin.com/in/marcusguedes">linkedin</a>
+        </li>
+        <li>
+            <a href="https://github.com/MCLG1661">github</a>
+        </li>
+        <li>
+            <a href="https://portfolio-update-buddy.lovable.app/">lovable</a>
+        </li>
+        <li>
+            <a href="https://alura.com.br">alura</a>
+        </li>
+    </ul>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
