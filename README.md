@@ -2,6 +2,11 @@
 
 Base de Conhecimento - Enciclopédia de Tecnologia
 
+https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white
+
 Uma enciclopédia digital interativa que permite explorar linguagens de programação, seus criadores e tecnologias através de uma interface moderna e intuitiva. Desenvolvida com as melhores práticas de front-end e design responsivo.
 
 📁 Estrutura do Projeto :
@@ -144,6 +149,11 @@ Contribuições são extremamente bem-vindas ! Sinta-se à vontade para:
 
 Marcus Guedes
 
+Desenvolvido com código limpo
+
 🌟 "O conhecimento é a única coisa que ninguém pode tirar de você"
+Explore, aprenda e compartilhe conhecimento 
+
+
 
 
