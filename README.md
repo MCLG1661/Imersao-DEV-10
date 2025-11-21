@@ -33,7 +33,7 @@ const resultados = dados.filter(item =>
     item.descrição.toLowerCase().includes(termoBusca)
 
 
-Renderização Dinâmica :
+🎯 Renderização Dinâmica :
 
 🖼️ Imagens contextuais (logos/fotos)
 
@@ -43,7 +43,7 @@ Renderização Dinâmica :
 
 📱 Layout responsivo com CSS Grid
 
-Otimizações de Performance :
+🔄  Otimizações de Performance :
 
 ⚡ Carregamento assíncrono de dados
 
@@ -75,25 +75,25 @@ Otimizações de Performance :
 
 - 🖥️ Linguagens de Programação 
 
-JavaScript - Brendan Eich (1995)
+'🟨' JavaScript - Brendan Eich (1995)
 
-Python - Guido van Rossum (1991)
+🐍 Python - Guido van Rossum (1991)
 
-Java - James Gosling (1995)
+'☕' Java - James Gosling (1995)
 
-C# - Microsoft (2000)
+'🔷' C# - Microsoft (2000)
 
-PHP - Rasmus Lerdorf (1994)
+'🐘' PHP - Rasmus Lerdorf (1994)
 
-C++ - Bjarne Stroustrup (1985)
+'🔵' C++ - Bjarne Stroustrup (1985)
 
-Swift - Apple Inc. (2014)
+'🐦' Swift - Apple Inc. (2014)
 
-Kotlin - JetBrains (2011)
+'🔶' Kotlin - JetBrains (2011)
 
-Go - Google (2009)
+'🔵' Go - Google (2009)
 
-TypeScript - Microsoft (2012)
+'🔷' TypeScript - Microsoft (2012)
 
 - 👨‍💻 Criadores Famosos 
  
