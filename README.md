@@ -15,10 +15,39 @@ Uma enciclopédia digital interativa que permite explorar linguagens de programa
 🔗 Links Diretos - Acesso rápido à documentação oficial
 🎯 Busca Contextual - Filtros inteligentes por tipo e categoria
 
-🛠️ Tecnologias Utilizadas
-<div align="center">
-Frontend	Estilização	Dados	Ferramentas
-https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white	https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white	https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white	https://img.shields.io/badge/Code%2520Assist-Google-4285F4?style=flat-square&logo=google&logoColor=white
-https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black	https://img.shields.io/badge/Google_Fonts-Inter&League_Gothic-4285F4?style=flat-square&logo=google-fonts&logoColor=white	https://img.shields.io/badge/Fetch-API-FF6B6B?style=flat-square	https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white
+🛠️ Tecnologias Utilizadas :
 
+🎯 Conteúdo Disponível :
 
+- 🖥️ Linguagens de Programação
+JavaScript - Brendan Eich (1995)
+Python - Guido van Rossum (1991)
+Java - James Gosling (1995)
+C# - Microsoft (2000)
+PHP - Rasmus Lerdorf (1994)
+C++ - Bjarne Stroustrup (1985)
+Swift - Apple Inc. (2014)
+Kotlin - JetBrains (2011)
+Go - Google (2009)
+TypeScript - Microsoft (2012)
+
+- 👨‍💻 Criadores Famosos
+Brendan Eich - Criador do JavaScript
+Guido van Rossum - Criador do Python
+James Gosling - Criador do Java
+Rasmus Lerdorf - Criador do PHP
+Bjarne Stroustrup - Criador do C++
+
+🚀 Como Usar
+📥 Instalação Local
+bash
+# Clone o repositório
+git clone https://github.com/MCLG1661/base-conhecimento.git
+
+# Acesse o diretório
+cd base-conhecimento
+
+# Abra o arquivo index.html no navegador
+# ou use um servidor local:
+python -m http.server 8000
+# Acesse: http://localhost:8000
