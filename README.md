@@ -49,37 +49,11 @@ const resultados = dados.filter(item =>
 
 - 🖥️ Linguagens de Programação 
 
-'🟨' JavaScript - Brendan Eich (1995)
-
-🐍 Python - Guido van Rossum (1991)
-
-'☕' Java - James Gosling (1995)
-
-'🔷' C# - Microsoft (2000)
-
-'🐘' PHP - Rasmus Lerdorf (1994)
-
-'🔵' C++ - Bjarne Stroustrup (1985)
-
-'🐦' Swift - Apple Inc. (2014)
-
-'🔶' Kotlin - JetBrains (2011)
-
-'🔵' Go - Google (2009)
-
-'🔷' TypeScript - Microsoft (2012)
+'🟨' JavaScript - Brendan Eich (1995) I 🐍 Python - Guido van Rossum (1991) I '☕' Java - James Gosling (1995) I '🔷' C# - Microsoft (2000) I '🐘' PHP - Rasmus Lerdorf (1994) I '🔵' C++ - Bjarne Stroustrup (1985) I '🐦' Swift - Apple Inc. (2014) I '🔶' Kotlin - JetBrains (2011) - '🔵' Go - Google (2009) I '🔷' TypeScript - Microsoft (2012)
 
 - 👨‍💻 Criadores Famosos 
  
-Brendan Eich - Criador do JavaScript
-
-Guido van Rossum - Criador do Python
-
-James Gosling - Criador do Java
-
-Rasmus Lerdorf - Criador do PHP
-
-Bjarne Stroustrup - Criador do C++
+Brendan Eich - Criador do JavaScript I Guido van Rossum - Criador do Python I James Gosling - Criador do Java I Rasmus Lerdorf - Criador do PHP I Bjarne Stroustrup - Criador do C++
 
 🎨 Características do Design :
 
