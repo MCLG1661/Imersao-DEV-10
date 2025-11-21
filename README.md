@@ -2,10 +2,11 @@
 
 Base de Conhecimento - Enciclopédia de Tecnologia
 
-https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Google Code Assist](https://img.shields.io/badge/Google%20Code%20Assist-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
 Uma enciclopédia digital interativa que permite explorar linguagens de programação, seus criadores e tecnologias através de uma interface moderna e intuitiva. Desenvolvida com as melhores práticas de front-end e design responsivo.
 
@@ -148,6 +149,8 @@ Contribuições são extremamente bem-vindas ! Sinta-se à vontade para:
 👨‍💻 Autor :
 
 Marcus Guedes
+GitHub: https://github.com/MCLG1661
+LinkedIn: https://www.linkedin.com/in/marcusguedes
 
 Desenvolvido com código limpo
 
