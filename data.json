@@ -30,7 +30,7 @@
     "nome":"C#",
     "tipo":"Back-end / Games",
     "descrição":"C# (pronuncia-se 'C sharp') é uma linguagem de programação multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. É amplamente usada para desenvolver aplicações para Windows, web e jogos com a engine Unity.",
-    "criador":"Microsoft",
+    "criador":"Anders Hejlsberg",
     "ano": 2000,
     "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg",
     "link": "https://pt.wikipedia.org/wiki/C_Sharp"
@@ -57,7 +57,7 @@
     "nome":"Swift",
     "tipo":"Mobile",
     "descrição":"Swift é uma linguagem de programação compilada, multiparadigma, desenvolvida pela Apple para criar aplicativos para iOS, Mac, Apple TV e Apple Watch. Foi projetada para ser segura, rápida e expressiva.",
-    "criador":"Apple Inc.",
+    "criador":"Chris Lattner",
     "ano": 2014,
     "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/1200px-Swift_logo.svg.png",
     "link": "https://pt.wikipedia.org/wiki/Swift_(linguagem_de_programação)"
@@ -75,7 +75,7 @@
     "nome":"Go",
     "tipo":"Back-end / Sistemas",
     "descrição":"Go (ou Golang) é uma linguagem de programação compilada e de tipagem estática projetada no Google. É sintaticamente semelhante ao C, mas com segurança de memória, coleta de lixo e concorrência no estilo CSP. É popular para serviços de back-end e ferramentas de linha de comando.",
-    "criador":"Google",
+    "criador":"Robert Griesemer, Rob Pike, Ken Thompson",
     "ano": 2009,
     "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png",
     "link": "https://pt.wikipedia.org/wiki/Go_(linguagem_de_programação)"
@@ -104,7 +104,7 @@
     "descrição": "Cientista da computação canadense, mais conhecido como o fundador e líder da equipe que criou a linguagem de programação Java.",
     "criador": "Java",
     "ano": 1955,
-    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/James_Gosling_2008.jpg/440px-James_Gosling_2008.jpg",
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/James_Gosling_2005.jpg",
     "link": "https://pt.wikipedia.org/wiki/James_Gosling"
 },
 {
@@ -113,7 +113,7 @@
     "descrição": "Programador dinamarquês-canadense, conhecido por ter criado a linguagem de programação de script PHP. Ele escreveu as duas primeiras versões do PHP.",
     "criador": "PHP",
     "ano": 1968,
-    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Rasmus_Lerdorf_2_l.jpg/440px-Rasmus_Lerdorf_2_l.jpg",
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Rasmus_Lerdorf.jpg/440px-Rasmus_Lerdorf.jpg",
     "link": "https://pt.wikipedia.org/wiki/Rasmus_Lerdorf"
 },
 {
@@ -122,7 +122,7 @@
     "descrição": "Cientista da computação dinamarquês, mais conhecido pela criação e desenvolvimento da linguagem de programação C++.",
     "criador": "C++",
     "ano": 1950,
-    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Bjarne-stroustrup.jpg/440px-Bjarne-stroustrup.jpg",
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/BjarneStroustrup.jpg",
     "link": "https://pt.wikipedia.org/wiki/Bjarne_Stroustrup"
 },
 {
@@ -194,7 +194,7 @@
     "descrição": "Engenheiro de software dinamarquês. Foi o arquiteto original do Turbo Pascal e Delphi. Na Microsoft, foi o arquiteto líder do C# e um dos principais desenvolvedores do TypeScript.",
     "criador": "C#, TypeScript",
     "ano": 1960,
-    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Anders_Hejlsberg_at_Oslo_Concert_Hall_2018.jpg",
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Anders_Hejlsberg_at_Oslo_Concert_Hall_2018.jpg/440px-Anders_Hejlsberg_at_Oslo_Concert_Hall_2018.jpg",
     "link": "https://pt.wikipedia.org/wiki/Anders_Hejlsberg"
 },
 {
@@ -203,7 +203,7 @@
     "descrição": "Engenheiro de software americano, conhecido como o principal autor do LLVM e da linguagem de programação Swift, desenvolvida na Apple.",
     "criador": "Swift",
     "ano": 1978,
-    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Chris_Lattner_WWDC_2017.jpg/440px-Chris_Lattner_WWDC_2017.jpg",
+    "imagem_url": "https://developer.apple.com/swift/blog/images/ChrisLattner.jpg",
     "link": "https://en.wikipedia.org/wiki/Chris_Lattner"
 }
 ]
