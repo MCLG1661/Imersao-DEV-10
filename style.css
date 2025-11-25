@@ -1,345 +1,216 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=League+Gothic&display=swap'); /* Importa as fontes League Gothic e Inter */
-
-* {
-    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento. */
+:root {
+    --indigo-400: #818cf8;
+    --background-color: #111827;
+    --container-bg: #1f2937;
+    --input-bg: #374151;
+    --text-color: #f9fafb;
+    --text-secondary-color: #9ca3af;
+    --border-color: #374151;
+    --box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
-:root {
-    /* Proposta de Paleta Moderna */
-    --bg-color: #1a1b26; /* Fundo azul-escuro, quase preto */
-    --card-bg-color: #2a2c3d; /* Fundo dos cards um pouco mais claro */
-    --text-color: #e0e0e0; /* Cor do texto principal (branco suave) */
-    --primary-color: #bb9af7; /* Acento principal (roxo vibrante) */
-    --secondary-color: #7aa2f7; /* Acento secundário (azul) */
-    --border-color: rgba(187, 154, 247, 0.2); /* Cor da borda com transparência */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    margin: 0; /* Remove a margem padrão do body. */
-    background: var(--bg-color); /* Define a cor de fundo usando uma variável. */
-    color: var(--text-color); /* Define a cor do texto padrão usando uma variável. */
-    font-family: "Inter", sans-serif; /* Define a família da fonte principal para Inter. */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
 }
 
 header {
-    padding: 2rem 1rem; /* Define o espaçamento interno (2rem em cima/baixo, 1rem nos lados). */
-    display: flex; /* Habilita o layout flexbox para alinhar os itens. */
-    align-items: center; /* Alinha os itens flex verticalmente ao centro. */
-    justify-content: space-around; /* Distribui os itens flex com espaço igual ao redor deles. */
-    position: sticky; /* Mantém o cabeçalho fixo no topo da janela de visualização ao rolar. */
-    top: 0; /* Define a posição do topo para o elemento sticky. */
-    background: rgba(26, 27, 38, 0.8); /* Fundo com transparência para o efeito de vidro */
-    backdrop-filter: blur(10px); /* Efeito "vidro fosco" */
-    z-index: 10; /* Define a ordem de empilhamento para que o cabeçalho fique sobre outros elementos. */
-    border-bottom: 1px solid var(--border-color); /* Borda sutil */
-    gap: 1rem; /* Define um espaçamento de 1rem entre os elementos flex. */
-    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    padding: 2rem 1rem;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 header h1 {
-    font-family: "League Gothic", sans-serif; /* Aplica a fonte de destaque */
-    font-size: 2.5rem; /* Aumenta o tamanho para a nova fonte */
-    margin: 0; /* Remove a margem padrão. */
-    font-weight: 400; /* Peso padrão para League Gothic */
-    white-space: nowrap; /* Impede que o texto quebre em várias linhas. */
-    letter-spacing: 1.5px; /* Adiciona espaçamento entre as letras */
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--indigo-400);
+    margin-bottom: 1rem;
 }
 
-div input {
-    padding: 0.375rem 0.75rem; /* Define o espaçamento interno. */
-    border-radius: 6px; /* Arredonda as bordas do campo de input. */
-    border: 1px solid var(--border-color); /* Define a borda com cor terciária. */
-    background: var(--bg-color); /* Define a cor de fundo. */
-    font-family: inherit; /* Herda a família da fonte do elemento pai. */
-    font-size: 1.5rem; /* Define o tamanho da fonte. */
-    transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades em 0.2 segundos. */
-    width: 30rem; /* Define a largura do campo de input. */
-    color: var(--secondary-color); /* Define a cor do texto digitado. */
-    margin-right: .5rem; /* Adiciona uma margem à direita. */
+#caixa-busca {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
 }
 
-div input::placeholder {
-    font-size: 1.2rem; /* Define o tamanho da fonte para o texto do placeholder. */
-    font-weight: 300; /* Define o peso da fonte para o texto do placeholder. */
-    color: var(--secondary-color); /* Define a cor do texto do placeholder. */
+#campo-busca {
+    flex-grow: 1;
+    padding: 0.75rem;
+    background-color: var(--input-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-color);
+    font-size: 1rem;
 }
 
-div input:focus {
-    outline: none; /* Remove a borda de foco padrão do navegador. */
-    border-color: var(--primary-color); /* Muda a cor da borda quando o input está em foco. */
-    box-shadow: 0 0 15px rgba(187, 154, 247, 0.4); /* Efeito de brilho (glow) */
+#campo-busca:focus {
+    outline: none;
+    border-color: var(--indigo-400);
+    box-shadow: 0 0 0 2px rgba(129, 140, 248, 0.4);
+}
+
+#botao-busca, #botao-limpar {
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
 }
 
 #botao-busca {
-    padding: 1rem 2rem; /* Define o espaçamento interno. */
-    border-radius: 6px; /* Arredonda as bordas do botão. */
-    border: none; /* Remove a borda padrão. */
-    cursor: pointer; /* Muda o cursor para uma mão para indicar que é clicável. */
-    font-family: inherit; /* Herda a família da fonte. */
-    font-weight: 500; /* Define o peso da fonte como médio. */
-    font-size: 1rem; /* Define o tamanho da fonte. */
-    white-space: nowrap; /* Impede que o texto do botão quebre em várias linhas. */
-    transition: background-color 0.2s ease, color 0.2s ease; /* Adiciona uma transição suave para a cor de fundo e a cor do texto. */
-    background-color: var(--primary-color); /* Define a cor de fundo. */
-    color: var(--bg-color); /* Define a cor do texto. */
-    border: 1px solid var(--primary-color); /* Adiciona uma borda sutil. */
+    background-color: #4f46e5; /* indigo-600 */
 }
 
 #botao-busca:hover {
-    background-color: var(--secondary-color); /* Muda a cor de fundo ao passar o mouse sobre o botão. */
-    border-color: var(--secondary-color);
-    box-shadow: 0 0 0 0.1rem var(--primary-color); /* Adiciona uma sombra de caixa para destaque. */
+    background-color: #4338ca; /* indigo-700 */
 }
 
 #botao-limpar {
-    padding: 1rem 2rem;
-    border-radius: 6px;
-    border: 1px solid var(--border-color);
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 1rem;
-    white-space: nowrap;
-    transition: background-color 0.2s ease, color 0.2s ease;
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color: #6b7280; /* gray-500 */
 }
 
 #botao-limpar:hover {
-    background-color: var(--card-bg-color);
-    border-color: var(--text-color);
-}
-
-#botao-busca:active {
-    transform: scale(0.98); /* Cria um efeito de clique diminuindo ligeiramente o tamanho do botão. */
+    background-color: #4b5563; /* gray-600 */
 }
 
 #caixa-filtros {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 0.75rem;
-    width: 100%;
-    margin-top: 1rem;
+    gap: 0.5rem;
 }
 
-.botao-filtro {
+.filtro-btn {
     padding: 0.5rem 1rem;
-    border-radius: 6px;
     border: 1px solid var(--border-color);
-    background-color: transparent;
-    color: var(--secondary-color);
+    background-color: var(--input-bg);
+    color: var(--text-secondary-color);
+    border-radius: 20px;
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
-.botao-filtro:hover {
-    background-color: var(--card-bg-color);
-    border-color: var(--primary-color);
-    color: var(--primary-color);
+.filtro-btn:hover {
+    background-color: var(--border-color);
+    color: var(--text-color);
 }
 
-.botao-filtro.ativo {
-    background-color: var(--primary-color);
-    color: var(--bg-color);
-    border-color: var(--primary-color);
-    font-weight: 500;
+.filtro-btn.active {
+    background-color: var(--indigo-400);
+    color: var(--background-color);
+    border-color: var(--indigo-400);
+    font-weight: 600;
 }
 
 main {
-    overflow-y: scroll; /* Adiciona uma barra de rolagem vertical se o conteúdo exceder a altura. */
-    max-width: 80rem; /* Define a largura máxima do conteúdo principal. */
-    margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente. */
-    margin-top: 2rem; /* Adiciona uma margem no topo. */
-    height: calc(100vh - 10rem - 4rem); /* Calcula a altura para preencher o espaço restante da tela (altura da viewport - altura do header - altura do footer). */
+    padding: 1rem;
 }
 
 #card-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Layout em grade responsivo */
-    gap: 1.5rem; /* Espaçamento entre os cards */
+    display: grid; /* Mantém o layout de grid */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Reduz o tamanho mínimo do card para 250px */
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-article {
-    background: var(--card-bg-color); /* Define o fundo como transparente. */
-    border-radius: 6px; /* Remove o arredondamento das bordas. */
-    padding: 0; /* Remove o espaçamento interno. */
-    padding: 1.5rem; /* Define o espaçamento interno nos lados. */
-    margin-bottom: 1.25rem; /* Adiciona uma margem na parte inferior. */
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Sombra sutil */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona uma transição suave */
-    border: 1px solid var(--border-color); /* Adiciona uma borda na parte inferior. */
-    opacity: 0; /* Começa invisível para a animação */
-    animation: fadeInSlideUp 0.5s forwards; /* Aplica a animação */
+.card {
+    background-color: var(--container-bg);
+    border-radius: 12px;
+    box-shadow: var(--box-shadow);
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-article:hover {
-    transform: translateY(-5px); /* Efeito de "levantar" o card */
-    cursor: pointer; /* Muda o cursor para uma mão para indicar que é interativo. */
-    box-shadow: 0 8px 25px rgba(187, 154, 247, 0.3); /* Efeito de brilho roxo ao passar o mouse */
-}
-
-@keyframes fadeInSlideUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-article h2 {
-    font-family: "League Gothic", sans-serif; /* Aplica a fonte de destaque */
-    margin-top: 0; /* Remove a margem superior. */
-    font-weight: 400; /* Peso padrão para League Gothic */
-    font-size: 2.2rem; /* Aumenta o tamanho para a nova fonte */
-    border-bottom: none; /* Remove a borda inferior. */
-    padding-bottom: 0; /* Remove o espaçamento interno inferior. */
-    margin-bottom: 0.25rem; /* Adiciona uma pequena margem inferior. */
-    color: var(--primary-color); /* Define a cor do texto usando a variável de cor primária. */
-}
-
-article h2 {
-    display: inline-block;
-    width: calc(100% - 100px); /* Ajusta a largura para não ficar embaixo da imagem */
-    vertical-align: top; /* Alinha o título no topo, ao lado da imagem */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
 }
 
 .card-imagem {
-    max-width: 80px; /* Largura máxima da imagem */
-    max-height: 80px; /* Altura máxima da imagem */
-    float: right; /* Alinha a imagem à direita */
-    margin-left: 15px; /* Espaço à esquerda da imagem */
-    margin-bottom: 10px; /* Espaço abaixo da imagem */
-    border-radius: 8px; /* Bordas arredondadas (bom para fotos e logos) */
-    object-fit: contain; /* Garante que a imagem inteira apareça sem distorção */
-    background-color: #fff; /* Fundo branco para logos com transparência */
-    padding: 5px; /* Pequeno preenchimento interno */
+    width: 100%; /* Mantém a largura total */
+    height: 120px; /* Reduz ainda mais a altura da imagem para 120px */
+    object-fit: contain; /* Garante que a imagem inteira (logo ou foto) apareça */
+    background-color: var(--container-bg); /* Fundo escuro que se integra ao card */
+    padding: 0.5rem; /* Adiciona um pequeno respiro para todas as imagens */
 }
 
-article p {
-    margin: 0.5rem 0; /* Define a margem superior e inferior. */
-    line-height: 1.6; /* Define a altura da linha para melhor legibilidade. */
-    font-size: 1rem; /* Define o tamanho da fonte. */
-    margin-bottom: 0.5rem; /* Adiciona uma margem inferior. */
-    color: var(--text-color); /* Define a cor do texto. */
+.card-conteudo {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
-article p strong {
-    color: var(--secondary-color); /* Define a cor do texto para elementos em negrito dentro de parágrafos. */
-    font-weight: 500; /* Define o peso da fonte como normal. */
+.card-titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
 }
 
-article a {
-    color: var(--primary-color); /* Define a cor do link. */
-    text-decoration: none; /* Remove o sublinhado padrão dos links. */
-    font-weight: 200; /* Define o peso da fonte como fino. */
+.card-tipo {
+    background-color: var(--indigo-400);
+    color: var(--background-color);
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    align-self: flex-start;
+    margin-bottom: 1rem;
 }
 
-article a:hover {
-    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse sobre o link. */
+.card-descricao {
+    font-size: 0.9rem;
+    color: var(--text-secondary-color);
+    margin-bottom: 1rem;
+    flex-grow: 1;
 }
 
-.saiba-mais {
+.card-link {
     display: inline-block;
-    margin-top: 0.5rem;
-    padding: 0.5rem 1rem;
-    background-color: var(--secondary-color);
-    color: var(--bg-color);
     text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.2s ease;
+    color: var(--indigo-400);
+    font-weight: 600;
+    margin-top: auto;
 }
 
-.saiba-mais:hover {
-    background-color: var(--primary-color); /* Tom de azul mais claro */
-    text-decoration: none;
+.card-link:hover {
+    text-decoration: underline;
 }
 
 .footer {
-    position: fixed; /* Deixa o rodapé fixo na parte inferior */
-    bottom: 0; /* Alinha o rodapé na parte inferior da página. */
-    left: 0; /* Alinha o rodapé à esquerda da página. */
-    width: 100%; /* Faz o rodapé ocupar 100% da largura. */
-    color: var(--tertiary-color); /* Define a cor do texto. */
-    background-color: var(--bg-color); /* Define a cor de fundo. */
-    padding: 15px 20px; /* Define o espaçamento interno. */
-    border-top: 1px solid #3c4043; /* Adiciona uma borda na parte superior. */
-    font-size: 0.8rem; /* Define o tamanho da fonte. */
-}
-
-.footer-location {
-    color: #9aa0a6; /* Define a cor do texto para a localização. */
-    margin-bottom: 10px; /* Adiciona uma margem inferior. */
+    text-align: center;
+    padding: 2rem 1rem;
+    color: var(--text-secondary-color);
 }
 
 .footer-links {
-    list-style: none; /* Remove os marcadores de item da lista. */
-    display: flex; /* Habilita o layout flexbox. */
-    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se não houver espaço. */
-    justify-content: center; /* Centraliza os itens horizontalmente. */
-    gap: 15px; /* Define um espaçamento de 15px entre os links. */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 .footer-links a {
-    color: var(--secondary-color); /* Define a cor do link. */
-    text-decoration: none; /* Remove o sublinhado do link. */
-    transition: color 0.2s; /* Adiciona uma transição suave para a mudança de cor. */
+    color: var(--text-secondary-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 .footer-links a:hover {
-    color: var(--primary-color); /* Muda a cor do link ao passar o mouse (variável --accent-color não definida, substituída por --primary-color). */
-}
-
-@media (max-width: 768px) {
-    header { /* Estilos para telas com largura máxima de 768px */
-        flex-direction: column; /* Organiza os itens do cabeçalho em coluna em telas menores. */
-        padding: 1rem; /* Reduz o espaçamento interno. */
-    }
-
-    header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
-        text-align: center; /* Centraliza o texto do título. */
-        margin-bottom: 1rem; /* Adiciona uma margem inferior. */
-    }
-
-    div input { /* Estilos para o input em telas menores */
-        width: 90vw; /* Define a largura como 90% da largura da viewport. */
-        font-size: 1.2rem; /* Reduz o tamanho da fonte. */
-    }
-
-    main { /* Estilos para o main em telas menores */
-        padding: 0 1rem; /* Adiciona espaçamento lateral. */
-    }
-
-    article:hover { /* Estilos para o article em telas menores */
-        transform: none; /* Remove o efeito de escala ao passar o mouse para evitar problemas de layout em dispositivos móveis. */
-    }
-}
-
-@media (max-width: 480px) {
-    header h1 { /* Estilos para o h1 em telas com largura máxima de 480px */
-        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte. */
-        max-width: 70%; /* Define uma largura máxima para o título. */
-        word-wrap: break-word; /* Permite que palavras longas quebrem para a próxima linha. */
-    }
-
-    div input, /* Estilos para o input e seu placeholder em telas muito pequenas */
-    div input::placeholder {
-        font-size: 1rem; /* Reduz o tamanho da fonte para o input e seu placeholder. */
-    }
-
-    article h2 { /* Estilos para o h2 do article em telas muito pequenas */
-        font-size: 1.3rem; /* Reduz o tamanho da fonte do título do artigo. */
-    }
-
-    div { /* Estilos para a div do cabeçalho em telas muito pequenas */
-        display: flex; /* Habilita o layout flexbox. */
-        align-items: center; /* Alinha os itens verticalmente ao centro. */
-        justify-content: center; /* Centraliza os itens horizontalmente. */
-        flex-direction: column; /* Organiza os itens em coluna. */
-        gap: 0.5rem; /* Define um espaçamento entre os itens. */
-    }
-
-    .footer { /* Estilos para o rodapé em telas muito pequenas */
-        display: none; /* Oculta o rodapé em telas muito pequenas para economizar espaço. */
-    }
-
-    button { /* Estilos para o botão em telas muito pequenas */
-        margin-top: 1rem; /* Adiciona uma margem no topo do botão. */
-    }
+    color: var(--indigo-400);
 }
