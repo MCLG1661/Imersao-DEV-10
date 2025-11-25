@@ -133,5 +133,77 @@
     "ano": 2012,
     "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
     "link": "https://pt.wikipedia.org/wiki/TypeScript"
+},
+{
+    "nome": "C",
+    "tipo": "Sistemas",
+    "descrição": "C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa e procedural. É uma das linguagens mais antigas e influentes, servindo de base para muitas outras, como C++, C#, e Java.",
+    "criador": "Dennis Ritchie",
+    "ano": 1972,
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png",
+    "link": "https://pt.wikipedia.org/wiki/C_(linguagem_de_programação)"
+},
+{
+    "nome": "Ruby",
+    "tipo": "Back-end / Web",
+    "descrição": "Ruby é uma linguagem de programação interpretada, de tipagem dinâmica e orientada a objetos. É conhecida por sua sintaxe elegante e produtividade, popularizada pelo framework web Ruby on Rails.",
+    "criador": "Yukihiro Matsumoto",
+    "ano": 1995,
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1200px-Ruby_logo.svg.png",
+    "link": "https://pt.wikipedia.org/wiki/Ruby_(linguagem_de_programação)"
+},
+{
+    "nome": "Rust",
+    "tipo": "Sistemas / Back-end",
+    "descrição": "Rust é uma linguagem de programação compilada, multiparadigma, focada em segurança, especialmente segurança de concorrência e de memória. É patrocinada pela Mozilla Research.",
+    "criador": "Graydon Hoare",
+    "ano": 2010,
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1200px-Rust_programming_language_black_logo.svg.png",
+    "link": "https://pt.wikipedia.org/wiki/Rust_(linguagem_de_programação)"
+},
+{
+    "nome": "Dennis Ritchie",
+    "tipo": "Criador",
+    "descrição": "Cientista da computação americano. Criou a linguagem de programação C e, com Ken Thompson, o sistema operacional Unix. Recebeu o Prêmio Turing em 1983.",
+    "criador": "C",
+    "ano": 1941,
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Dennis_Ritchie_2011.jpg/440px-Dennis_Ritchie_2011.jpg",
+    "link": "https://pt.wikipedia.org/wiki/Dennis_Ritchie"
+},
+{
+    "nome": "Yukihiro Matsumoto",
+    "tipo": "Criador",
+    "descrição": "Cientista da computação e programador japonês, mais conhecido como o criador da linguagem de programação Ruby. É também conhecido como 'Matz'.",
+    "criador": "Ruby",
+    "ano": 1965,
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Yukihiro_Matsumoto.JPG/440px-Yukihiro_Matsumoto.JPG",
+    "link": "https://pt.wikipedia.org/wiki/Yukihiro_Matsumoto"
+},
+{
+    "nome": "Graydon Hoare",
+    "tipo": "Criador",
+    "descrição": "Programador de computador canadense que criou a linguagem de programação Rust como um projeto pessoal enquanto trabalhava na Mozilla em 2006.",
+    "criador": "Rust",
+    "ano": 1977,
+    "imagem_url": "https://www.rust-lang.org/static/images/graydon-sq.jpg",
+    "link": "https://en.wikipedia.org/wiki/Graydon_Hoare"
+},
+{
+    "nome": "Anders Hejlsberg",
+    "tipo": "Criador",
+    "descrição": "Engenheiro de software dinamarquês. Foi o arquiteto original do Turbo Pascal e Delphi. Na Microsoft, foi o arquiteto líder do C# e um dos principais desenvolvedores do TypeScript.",
+    "criador": "C#, TypeScript",
+    "ano": 1960,
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Anders_Hejlsberg_at_Oslo_Concert_Hall_2018.jpg",
+    "link": "https://pt.wikipedia.org/wiki/Anders_Hejlsberg"
+},
+{
+    "nome": "Chris Lattner",
+    "tipo": "Criador",
+    "descrição": "Engenheiro de software americano, conhecido como o principal autor do LLVM e da linguagem de programação Swift, desenvolvida na Apple.",
+    "criador": "Swift",
+    "ano": 1978,
+    "imagem_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Chris_Lattner_WWDC_2017.jpg/440px-Chris_Lattner_WWDC_2017.jpg",
+    "link": "https://en.wikipedia.org/wiki/Chris_Lattner"
 }
 ]
