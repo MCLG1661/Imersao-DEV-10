@@ -33,6 +33,7 @@ header {
     z-index: 10; /* Define a ordem de empilhamento para que o cabeçalho fique sobre outros elementos. */
     border-bottom: 1px solid var(--border-color); /* Borda sutil */
     gap: 1rem; /* Define um espaçamento de 1rem entre os elementos flex. */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
 }
 
 header h1 {
@@ -111,6 +112,37 @@ div input:focus {
 
 #botao-busca:active {
     transform: scale(0.98); /* Cria um efeito de clique diminuindo ligeiramente o tamanho do botão. */
+}
+
+#caixa-filtros {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.botao-filtro {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    background-color: transparent;
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.botao-filtro:hover {
+    background-color: var(--card-bg-color);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.botao-filtro.ativo {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border-color: var(--primary-color);
+    font-weight: 500;
 }
 
 main {
